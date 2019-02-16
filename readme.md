@@ -2,4 +2,4 @@ A somewhat simple snake game originally made for a web development class. Contro
 
 It is a violation of the Rice University honor code to look at the code for this game in the course of completing the javaScript Game assignment in COMP431.
 
-You can find a (hopefully) up to date version of the game hosted at [https://simplesnake.surge.sh]
+You can find a (hopefully) up to date version of the game hosted at https://simplesnake.surge.sh
