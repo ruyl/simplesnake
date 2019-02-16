@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nicholas Alvarez (naa3)">
+    <link href="snake.css" rel="stylesheet">
+    <title>
+        Simple Snake
+    </title>
+</head>
+<body>
+<div class="fullframe">
+    <canvas id="grid" width="800" height="800"></canvas>
+    <canvas id="background" width="800" height="800"></canvas>
+    <canvas id="currentblock" width="800" height="800"></canvas>
+</div>
+<div class="fullframe">
+    <div class="scorebox scoreboxone">
+        SCORE
+        <div id="score">
+0
+        </div>
+    </div>
+    <div class="scorebox scoreboxtwo">
+        HIGH SCORE
+        <div id="highscore">
+
+        </div>
+    </div>
+    <div class="scorebox scoreboxthree">
+        BEST TIME
+        <div id="besttime">
+
+        </div>
+    </div>
+    <button class="startbutton" id="start"> START </button>
+    <button class= "gamebutton up upcolor" id="up"> UP  </button>
+    <button class= "gamebutton down downcolor" id="down"> DOWN </button>
+    <button class= "gamebutton left leftcolor" id="left"> LEFT </button>
+    <button class= "gamebutton right rightcolor" id="right"> RIGHT </button>
+</div>
+</body>
+<script src="snake.js"></script>
+</html>

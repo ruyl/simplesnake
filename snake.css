@@ -1,0 +1,117 @@
+.scorebox {
+    background: gray;
+    position:absolute;
+    left:28em;
+    width:10em;
+    border:dashed;
+    text-align: center;
+    color: black;
+    height:4em;
+}
+
+.fullframe {
+    position:fixed;
+    top:0em;
+    left:0em;
+    width: 800px;
+    height: 800px;
+}
+
+#grid {
+    position:absolute; left:0;top:0; z-index: 2;
+}
+
+#background {
+    position:absolute; left:0;top:0; z-index: 1;
+}
+
+#currentblock {
+    position:absolute; left:0;top:0; z-index: 2;
+}
+
+.scoreboxone {
+    top:0em;
+}
+
+.scoreboxtwo {
+    top:4em;
+}
+
+.scoreboxthree {
+    top:8em;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.startbutton {
+    background-color: gray;
+    position:absolute;
+    left:0em;
+    top:55%;
+    width:55%;
+    height:10%;
+    color: white;
+    border: none;
+}
+
+.gamebutton {
+    color: white;
+    opacity: 0.8;
+    outline:none;
+    border:transparent;
+    position:relative;
+}
+
+.invisiblebutton {
+    color: transparent;
+    background: transparent;
+    outline: none;
+    border: transparent;
+    position:relative;
+}
+
+.upcolor {
+    background: red;
+}
+
+.downcolor {
+    background: green;
+}
+
+.leftcolor {
+    background: blue;
+}
+
+.rightcolor {
+    background: orange;
+}
+
+.up {
+    left:15%;
+    top:-13.75%;
+    width:25%;
+    height:27.5%;
+}
+
+.down {
+    left:-10.5%;
+    top:13.75%;/*16.5em;*/
+    width:25%;
+    height:27.5%;
+}
+
+.left {
+    left:-51%;
+    top:0%;
+    width: 15%;/*9em;*/
+    height:55%/*33em;*/
+}
+
+.right {
+    left:-26.5%;
+    top:0%;
+    width:15%;
+    height:55%;
+}
